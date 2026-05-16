@@ -45,6 +45,6 @@ public class Ball extends Rectangle {
 		g.fillOval(x, y, width, height);
 		Font font = new Font("Arial", Font.PLAIN, 50);			// Create a font for the player scores
 		g.setFont(font);
-		g.drawString(String.valueOf(Math.abs(this.xVelocity)), 100, 100);
+		g.drawString(String.valueOf(Math.abs(this.xVelocity)), 100, 100);   // Display the ball speed in the top left corner for testing purposes
 	}
 }
